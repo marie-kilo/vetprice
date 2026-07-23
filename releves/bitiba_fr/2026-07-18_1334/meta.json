@@ -1,0 +1,11 @@
+{
+  "site": "bitiba_fr",
+  "started_at": "2026-07-18T15:03:33.713484+00:00",
+  "run_dir": "/Users/selim/sel/vetprice/vetprice/data/raw/bitiba_fr/2026-07-18_1334",
+  "products_scraped": 12659,
+  "http_requests": 1619,
+  "http_errors": 0,
+  "elapsed_seconds": 4070.6,
+  "completed": true,
+  "resumed": true
+}

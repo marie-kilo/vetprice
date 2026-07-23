@@ -1,0 +1,9 @@
+{
+  "site": "bitiba_fr",
+  "started_at": "2026-07-12T14:08:56.931165+00:00",
+  "run_dir": "/Users/selim/courses/simplon-de-2026-lyon/prepa/vetprice/data/raw/bitiba_fr/2026-07-12_1242",
+  "products_scraped": 12763,
+  "http_requests": 2069,
+  "http_errors": 0,
+  "elapsed_seconds": 5187.6
+}

@@ -1,0 +1,9 @@
+{
+  "site": "univers_veto",
+  "started_at": "2026-07-12T11:50:12.414310+00:00",
+  "run_dir": "/Users/selim/courses/simplon-de-2026-lyon/prepa/vetprice/data/raw/univers_veto/2026-07-12_1150",
+  "products_scraped": 310,
+  "http_requests": 4,
+  "http_errors": 0,
+  "elapsed_seconds": 8.9
+}

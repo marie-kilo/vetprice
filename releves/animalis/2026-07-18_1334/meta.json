@@ -1,0 +1,11 @@
+{
+  "site": "animalis",
+  "started_at": "2026-07-21T04:18:43.055557+00:00",
+  "run_dir": "/Users/selim/sel/vetprice/vetprice/data/raw/animalis/2026-07-18_1334",
+  "products_scraped": 53561,
+  "http_requests": 35459,
+  "http_errors": 127,
+  "elapsed_seconds": 224579.9,
+  "completed": true,
+  "resumed": true
+}

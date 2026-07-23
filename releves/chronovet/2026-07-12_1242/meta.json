@@ -1,0 +1,9 @@
+{
+  "site": "chronovet",
+  "started_at": "2026-07-12T14:47:41.950259+00:00",
+  "run_dir": "/Users/selim/courses/simplon-de-2026-lyon/prepa/vetprice/data/raw/chronovet/2026-07-12_1242",
+  "products_scraped": 2436,
+  "http_requests": 2989,
+  "http_errors": 0,
+  "elapsed_seconds": 7512.7
+}

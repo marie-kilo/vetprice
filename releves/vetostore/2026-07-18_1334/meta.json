@@ -1,0 +1,11 @@
+{
+  "site": "vetostore",
+  "started_at": "2026-07-20T20:41:16.136713+00:00",
+  "run_dir": "/Users/selim/sel/vetprice/vetprice/data/raw/vetostore/2026-07-18_1334",
+  "products_scraped": 7943,
+  "http_requests": 5869,
+  "http_errors": 97,
+  "elapsed_seconds": 197133.0,
+  "completed": true,
+  "resumed": true
+}

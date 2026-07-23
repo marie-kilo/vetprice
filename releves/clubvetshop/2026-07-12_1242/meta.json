@@ -1,0 +1,9 @@
+{
+  "site": "clubvetshop",
+  "started_at": "2026-07-12T18:38:12.721029+00:00",
+  "run_dir": "/Users/selim/courses/simplon-de-2026-lyon/prepa/vetprice/data/raw/clubvetshop/2026-07-12_1242",
+  "products_scraped": 8502,
+  "http_requests": 8504,
+  "http_errors": 0,
+  "elapsed_seconds": 21343.4
+}

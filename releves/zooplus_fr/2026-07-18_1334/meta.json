@@ -1,0 +1,11 @@
+{
+  "site": "zooplus_fr",
+  "started_at": "2026-07-18T16:20:03.753903+00:00",
+  "run_dir": "/Users/selim/sel/vetprice/vetprice/data/raw/zooplus_fr/2026-07-18_1334",
+  "products_scraped": 64639,
+  "http_requests": 3451,
+  "http_errors": 1,
+  "elapsed_seconds": 8660.6,
+  "completed": true,
+  "resumed": true
+}

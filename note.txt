@@ -1,0 +1,185 @@
+les difference ente les sites :
+🟦 ANIMALIS
+Format stable entre avril et juillet
+
+Colonnes :
+description_short, variant_name, pack_size
+
+Pas de price_was, pas de species
+
+👉 Format cohérent.
+
+🟦 BITIBA_FR
+Format change fortement entre avril et juillet
+
+Avril : format très riche
+
+Juillet : format très réduit (beaucoup de colonnes disparues)
+
+👉 Site instable → à noter dans DECISIONS.md.
+
+🟦 CHRONOVET
+Avril : format simple
+
+Juillet : format enrichi
+(description_short, species, price_was, conditioning, weight_kg)
+
+👉 Format évolue 
+
+🟦 CLUBVETSHOP
+Format stable
+
+Colonnes identiques entre avril et juillet
+
+👉 Très simple à gérer.
+
+🟦 MAXIZOO
+Format très pauvre
+
+Pas de price (!)
+
+Pas de in_stock
+
+Pas de category
+
+👉 Site très problématique → à noter dans DECISIONS.md.
+
+🟦 PHARMACY4PETS
+Format change beaucoup entre avril et juillet
+
+Ajout de :
+brand, category, rating, review_count, stock_text, price_was
+
+👉 Site instable.
+
+🟦 UNIVERS_VETO
+Format stable
+
+Colonnes identiques entre avril et juillet
+
+👉 Site propre.
+
+🟦 VETOPLUS
+Format change entre avril et juillet
+
+Ajout de :
+price_was, species, atc_code
+
+👉 Site instable.
+
+🟦 VETOSTORE
+Format stable
+
+Colonnes identiques entre avril et juillet
+
+👉 Site propre.
+
+🟦 ZOOPLUS_FR
+Format change fortement entre avril et juillet
+
+Avril : format riche
+
+Juillet : format très réduit
+
+👉 Site instable.
+
+*********************
+2. Que signifie ce résultat ?
+✔️ Colonnes présentes partout (fiables)
+Elles ont 388 784 valeurs, donc présentes dans tous les fichiers :
+
+site
+
+url
+
+scraped_at
+
+name
+
+currency
+
+extra
+
+👉 Ce sont des colonnes 100% fiables → elles doivent être dans ton modèle.
+
+✔️ Colonnes présentes presque partout (fiabilité élevée)
+ean → 360 862 valeurs
+
+sku → 369 412 valeurs
+
+in_stock → 363 874 valeurs
+
+image_url → 365 750 valeurs
+
+brand → 357 725 valeurs
+
+👉 Très fiables, mais pas parfaites → certains sites ne les fournissent pas.
+
+✔️ Colonnes présentes dans certains sites seulement
+description_short → 190 378
+
+variant_name → 168 509
+
+pack_size → 71 205
+
+price_was → 24 862
+
+price_per_unit → 47 035
+
+price_per_unit_label → 93 659
+
+stock_text → 100 248
+
+species → 8 167
+
+conditioning → 1 551
+
+weight_kg → 4 051
+
+mpn → 14 203
+
+rating → 4 070
+
+review_count → 4 070
+
+atc_code → 4
+
+👉 Colonnes très variables → à mettre dans extra ou en colonnes optionnelles.
+
+✔️ Colonnes très rares
+atc_code → 4 valeurs seulement
+
+👉 Colonnes spécifiques à un seul site → à ignorer dans ton modèle principal.
+
+************************
+Un 'SKU' (Stock Keeping Unit):
+est un identifiant unique attribué à chaque produit
+ou variante d'un produit pour faciliter la gestion des stocks.
+
+
+
+*****************************************************
+vetprice=# SELECT site, COUNT(*) FROM product GROUP BY site;
+   site    | count                                                                                                                                                               
+-----------+-------
+ chronovet |  2644
+(1 row)
+
+
+vetprice=# SELECT scraped_at::date, COUNT(*) FROM price_fact GROUP BY scraped_at::date;
+ scraped_at | count                                                                                                                                                              
+------------+-------
+ 2026-04-01 |  3262
+ 2026-07-12 |  5050
+ 2026-07-18 |  4904
+(3 rows)
+
+
+vetprice=# SELECT ean, COUNT(*) 
+vetprice-# FROM product 
+vetprice-# GROUP BY ean 
+vetprice-# HAVING COUNT(*) > 1;
+ ean | count                                                                                                                                                                     
+-----+-------
+     |     3
+(1 row)

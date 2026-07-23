@@ -1,0 +1,9 @@
+{
+  "site": "univers_veto",
+  "started_at": "2026-04-01T18:47:09.138002+00:00",
+  "run_dir": "/Users/selim/sel/vetprice/data/raw/univers_veto/2026-04-01_1847",
+  "products_scraped": 298,
+  "http_requests": 3,
+  "http_errors": 0,
+  "elapsed_seconds": 8.6
+}

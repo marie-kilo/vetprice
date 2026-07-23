@@ -1,0 +1,9 @@
+{
+  "site": "maxizoo",
+  "started_at": "2026-07-12T18:08:17.871675+00:00",
+  "run_dir": "/Users/selim/courses/simplon-de-2026-lyon/prepa/vetprice/data/raw/maxizoo/2026-07-12_1242",
+  "products_scraped": 7741,
+  "http_requests": 7743,
+  "http_errors": 0,
+  "elapsed_seconds": 19548.6
+}

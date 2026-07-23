@@ -1,0 +1,11 @@
+{
+  "site": "chronovet",
+  "started_at": "2026-07-18T16:01:30.323125+00:00",
+  "run_dir": "/Users/selim/sel/vetprice/vetprice/data/raw/chronovet/2026-07-18_1334",
+  "products_scraped": 2453,
+  "http_requests": 3007,
+  "http_errors": 0,
+  "elapsed_seconds": 7547.2,
+  "completed": true,
+  "resumed": true
+}

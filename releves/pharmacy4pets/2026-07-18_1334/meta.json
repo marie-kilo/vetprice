@@ -1,0 +1,9 @@
+{
+  "site": "pharmacy4pets",
+  "started_at": "2026-07-18T13:35:07.413319+00:00",
+  "run_dir": "/Users/selim/sel/vetprice/vetprice/data/raw/pharmacy4pets/2026-07-18_1334",
+  "products_scraped": 1352,
+  "http_requests": 14,
+  "http_errors": 0,
+  "elapsed_seconds": 67.0
+}

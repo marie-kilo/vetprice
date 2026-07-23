@@ -1,0 +1,11 @@
+{
+  "site": "maxizoo",
+  "started_at": "2026-07-19T12:13:10.978897+00:00",
+  "run_dir": "/Users/selim/sel/vetprice/vetprice/data/raw/maxizoo/2026-07-18_1334",
+  "products_scraped": 8076,
+  "http_requests": 7581,
+  "http_errors": 17,
+  "elapsed_seconds": 80247.9,
+  "completed": true,
+  "resumed": true
+}

@@ -1,0 +1,9 @@
+{
+  "site": "zooplus_fr",
+  "started_at": "2026-07-12T15:26:22.513373+00:00",
+  "run_dir": "/Users/selim/courses/simplon-de-2026-lyon/prepa/vetprice/data/raw/zooplus_fr/2026-07-12_1242",
+  "products_scraped": 65438,
+  "http_requests": 3931,
+  "http_errors": 0,
+  "elapsed_seconds": 9833.2
+}

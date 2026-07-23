@@ -1,0 +1,11 @@
+{
+  "site": "clubvetshop",
+  "started_at": "2026-07-19T12:24:07.175732+00:00",
+  "run_dir": "/Users/selim/sel/vetprice/vetprice/data/raw/clubvetshop/2026-07-18_1334",
+  "products_scraped": 8468,
+  "http_requests": 7956,
+  "http_errors": 17,
+  "elapsed_seconds": 80904.1,
+  "completed": true,
+  "resumed": true
+}
